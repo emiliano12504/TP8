@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    margin-top: 56px;
+}
+body{
+    background-color: rgb(54, 59, 59);
+    margin-bottom: 20px;
+}
+.col-sm-12{
+    background-color: lightgray;
+}
+.col-sm-4{
+    background-color: darkgray;
+}
+.col-sm-8{
+    background-color: silver;
+}
+ ul li:hover{
+    background-color: darkgrey;
+}

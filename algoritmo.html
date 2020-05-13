@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Dinopedia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="algoritmo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">Algoritmo de Edsger</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="PMT.html" class="nav-link">Edsger</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+            <li class="nav-item"><a href="frases.html" class="nav-link">Frases</a></li>
+            <li class="nav-item"><a href="extras.html" class="nav-link">Contribuciones</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="container-fluid">
+          <h2 class="text-white">Algoritmo de Edsger</h2>
+          <p class="text-white">El algoritmo de Dijkstra  es un algoritmo para la búsqueda de las rutas más cortas entre los nodos en un gráfico , que puede representar, por ejemplo, redes de carreteras . Fue concebido por el científico informático Edsger W. Dijkstra en 1956 y publicado tres años después.</p>
+          <img src="1.gif" alt="gif" width="450px" height="400px" class="mx-auto d-block">
+          <p class="text-white">El algoritmo existe en muchas variantes. El algoritmo original de Dijkstra encontró la ruta más corta entre dos nodos dados,pero una variante más común fija un solo nodo como nodo "fuente" y encuentra las rutas más cortas desde la fuente a todos los demás nodos en el gráfico, produciendo una ruta más corta árbol</p>
+          <p class="text-white">Para un nodo fuente dado en el gráfico, el algoritmo encuentra la ruta más corta entre ese nodo y todos los demás.</p>
+          <p class="text-white">También se puede utilizar para encontrar las rutas más cortas desde un solo nodo a un solo nodo de destino deteniendo el algoritmo una vez que se ha determinado la ruta más corta al nodo de destino. Por ejemplo, si los nodos del gráfico representan ciudades y los costos de la ruta de borde representan distancias de conducción entre pares de ciudades conectadas por una carretera directa (por simplicidad, ignore las luces rojas, las señales de alto, las carreteras de peaje y otras obstrucciones), se puede usar el algoritmo de Dijkstra para encontrar la ruta más corta entre una ciudad y todas las demás ciudades. Una aplicación ampliamente utilizada del algoritmo de ruta más corta son los protocolos de enrutamiento de red , especialmente IS-IS(Sistema intermedio a sistema intermedio) y Abrir primero la ruta más corta ( OSPF ). También se emplea como una subrutina en otros algoritmos como el de Johnson .</p>
+          <p class="text-white">El algoritmo de Dijkstra usa etiquetas que son enteros positivos o números reales, que están totalmente ordenados . Se puede generalizar el uso de cualquier etiqueta que esté parcialmente ordenada , siempre que las etiquetas posteriores (se produzca una etiqueta posterior al atravesar un borde) no disminuyan de forma monotónica . Esta generalización se denomina algoritmo genérico de la ruta más corta de Dijkstra.</p>
+          <p class="text-white">El algoritmo de Dijkstra utiliza una estructura de datos para almacenar y consultar soluciones parciales ordenadas por distancia desde el inicio. Mientras que el algoritmo original usa una cola de prioridad mínima y se ejecuta a tiempo {\ displaystyle O (| V | + | E | \ log | V |)}{\ displaystyle O (| V | + | E | \ log | V |)}(dónde {\ displaystyle | V |}| V |es el número de nodos y {\ displaystyle | E |}| E | es el número de bordes), también se puede implementar en {\ displaystyle O (V ^ {2})}{\ displaystyle O (V ^ {2})}usando una matriz. La idea de este algoritmo también se da en Leyzorek et al. 1957 . Fredman y Tarjan 1984 proponen utilizar una cola de prioridad mínima de montón de Fibonacci para optimizar la complejidad del tiempo de ejecución para{\ displaystyle O (| E | + | V | \ log | V |)}O (| E | + | V | \ log | V |)(dónde {\ displaystyle | E |}| E |es el número de aristas). Este es asintóticamente el algoritmo de ruta más corta de fuente única más rápido conocido para gráficos arbitrarios dirigidos con pesos no negativos no acotados. Sin embargo, los casos especializados (como los pesos acotados / enteros, los gráficos acíclicos dirigidos, etc.) se pueden mejorar aún más como se detalla en las variantes especializadas .</p>
+          <p class="text-white">En algunos campos, la inteligencia artificial en particular, el algoritmo de Dijkstra o una variante del mismo se conoce como búsqueda de costo uniforme y se formula como una instancia de la idea más general de la búsqueda de mejor primero</p>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
